@@ -17,9 +17,9 @@ network:
     ethernets:
         $ens:
             addresses: [$ipaddress]
-            gateway4: gateway4
+            gateway4: $gateway4
             nameservers:
-                addresses: [nameserver1, nameserver2]
+                addresses: [$nameserver1, $nameserver2]
     version: 2
 
 EOF
