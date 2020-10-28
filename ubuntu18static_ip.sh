@@ -2,7 +2,7 @@ ens=$(ip r | grep default | cut -d\  -f5)
 
 echo "WARNING! This only works if you have netplan!"
 
-echo "Tipe the details:"
+echo "Type the details:"
 
 read ipaddress
 read gateway4
