@@ -1,6 +1,8 @@
 ens=$(ip r | grep default | cut -d\  -f5)
 
-echo "Tipe the IP with mask:"
+echo "WARNING! This only works if you have netplan!"
+
+echo "Tipe the details:"
 
 read ipaddress
 read gateway4
